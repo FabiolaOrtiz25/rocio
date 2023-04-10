@@ -1,0 +1,75 @@
+/* Estilos CSS para el contenedor principal */
+.perfil { 
+    max-width: 600px; /* Establece el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Agrega espacio de relleno alrededor del contenedor */
+}
+  
+/* Estilos CSS para la imagen de perfil */
+.foto-perfil {
+    width: 150px; /* Establece el ancho de la imagen de perfil */
+    height: 150px; /* E  stablece la altura de la imagen de perfil */
+    border-radius: 50%; /* Aplica un borde redondeado para que la imagen tenga forma circular */
+    object-fit: cover; /* Controla cómo se ajusta la imagen dentro de su contenedor */
+} 
+  
+/* Estilos CSS para el nombre de usuario y biografía */
+.nombre-usuario {
+    font-size: 24px;   /* Establece el tamaño de fuente del nombre de usuario */
+    font-weight: bold;  /* Establece la negrita del nombre de usuario */ 
+    margin-top: 20px; /* Agrega espacio superior al nombre de usuario */
+}
+  
+.biografia {
+    font-size: 16px; /* Establece el tamaño de fuente de la biografía */
+    color: gray; /* Establece el color del texto de la biografía */
+    margin-top: 10px; /* Agrega espacio superior a la biografía */
+}   
+  
+/* Estilos CSS para los contadores de publicaciones, seguidores y seguidos */
+.contadores {
+    display: flex; /* Aplica un diseño de caja flexible para los contadores */
+    justify-content: space-between; /* Distribuye los contadores equitativamente en el espacio disponible */
+    margin-top: 20px; /* Agrega espacio superior a los contadores */
+}
+  
+.contador {
+    text-align: center; /* Centra el contenido de los contadores horizontalmente */
+}
+  
+.contador .numero {
+    font-size: 24px; /* Establece el tamaño de fuente del número en los contadores */
+    font-weight: bold; /* Establece la negrita del número en los contadores */
+}       
+  
+.contador .etiqueta {
+    font-size: 14px; /* Establece el tamaño de fuente de la etiqueta en los contadores */
+    color: gray; /* Establece el color del texto de la etiqueta en los contadores */
+}
+  
+/* Estilos CSS para los enlaces de navegación */
+.nav-enlaces {
+    display: flex; /* Aplica un diseño de caja flexible para los enlaces de navegación */
+    justify-content: space-between; /* Distribuye los enlaces equitativamente en el espacio disponible */
+    margin-top: 20px; /* Agrega espacio superior a los enlaces de navegación */
+}
+      
+.nav-enlaces a {
+    text-decoration: none; /* Quita la decoración de subrayado de los enlaces */
+    color: blue; /* Establece el color del texto de los enlaces */
+    font-weight: bold; /* Establece la negrita del texto de los enlaces */
+}
+  
+/* Estilos CSS para la sección de fotos */
+.fotos {
+    margin-top: 20px; /* Agrega espacio superior a la sección de fotos */
+}
+  
+.fotos img {
+    width: 100px; /* Establece el ancho de las imágenes de las fotos */
+    height: 100px; /* Establece la altura de las imágenes de las fotos */
+    object-fit: cover; /* Controla cómo se ajusta la imagen dentro de su contenedor */
+    margin-right: 10px; /* Agrega margen derecho a las imágenes de las fotos */
+}
+       
+             
